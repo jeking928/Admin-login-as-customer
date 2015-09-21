@@ -1,183 +1,204 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
-<head>
-  <title>Admin Login As Customer v3.3</title>
+  <head>
+  <title>Admin Login As Customer v3.4</title>
   <style type="text/css" media="all">
-  <!--
-  body { font-family: Verdana, Arial, Helvetica, sans-serif; text-size: small; } 
-  -->
-  </style>
-</head>
-<body>
-<div align="center"><font size="4"><strong>Admin Login As Customer v3.3</strong></font></div>
-<br /><br />
+<!--
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-size: small;
+}
+-->
+</style>
+  </head>
+  <body>
+<div align="center"><font size="4"><strong>Admin Login As Customer v3.4</strong></font></div>
+<br />
+<br />
 Original Author: Sid Smith<br />
 Version: 2.0 - Updated by ScriptJunkie<br />
 Zen Cart version: 1.5.1 - <strong>This version is not backward compatible with Zen Cart v1.3.9.</strong><br />
-If you are running Zen Cart v1.3.9 and wish to use the Admin Login As Customer addon, visit <a href="http://www.zen-cart.com/index.php?main_page=index&cPath=40" target="_blank">the download section</a> of the Zen Cart Forum and download Admin Login As Customer v2.2
-<br /><br />
-<strong>Questions?:</strong> Hit the <a href="http://www.zen-cart.com/showthread.php?82958-Login-as-Customer-module&highlight=Login+as+Customer" target="_blank">support thread</a>
-<br /><br />
-<font size="4"><strong><u>Acknowledgements & Credits</u></strong></font> 
- <ul>
- <li>All credit goes to the original mod author, Sid Smith. All subsequent versions are updates based on his original mod.</li> 
- <li>Admin Login As Customer v3.0 based entirely on Admin Login As Customer v2.2 for Zen Cart v1.3.9, updated by That Software Guy</li>
- <li>Admin Login As Customer v3.0 updated by ScriptJunkie</li>
- <li>Admin Login As Customer v3.1 based entirely on Admin Login As Customer v3.0 for Zen Cart v1.5.0, updated by Ares</li>
- <li>Admin Login As Customer v3.2 based entirely on Admin Login As Customer v3.1 for Zen Cart v1.5.1, updated by Numinix</li> 
-  <li>Admin Login As Customer v3.3 based entirely on Admin Login As Customer v3.2 for Zen Cart v1.5.3, updated by Numinix</li>    
- </ul>
- <br />
+If you are running Zen Cart v1.3.9 and wish to use the Admin Login As Customer addon, visit <a href="http://www.zen-cart.com/index.php?main_page=index&cPath=40" target="_blank">the download section</a> of the Zen Cart Forum and download Admin Login As Customer v2.2 <br />
+<br />
+<strong>Questions?:</strong> Hit the <a href="http://www.zen-cart.com/showthread.php?82958-Login-as-Customer-module&highlight=Login+as+Customer" target="_blank">support thread</a> <br />
+<br />
+<font size="4"><strong><u>Acknowledgements & Credits</u></strong></font>
+<ul>
+    <li>All credit goes to the original mod author, Sid Smith. All subsequent versions are updates based on his original mod.</li>
+    <li>Admin Login As Customer v3.0 based entirely on Admin Login As Customer v2.2 for Zen Cart v1.3.9, updated by That Software Guy</li>
+    <li>Admin Login As Customer v3.0 updated by ScriptJunkie</li>
+    <li>Admin Login As Customer v3.1 based entirely on Admin Login As Customer v3.0 for Zen Cart v1.5.0, updated by Ares</li>
+    <li>Admin Login As Customer v3.2 based entirely on Admin Login As Customer v3.1 for Zen Cart v1.5.1, updated by Numinix</li>
+    <li>Admin Login As Customer v3.3 based entirely on Admin Login As Customer v3.2 for Zen Cart v1.5.3, updated by Numinix</li>
+    <li>Admin Login As Customer v3.4 based entirely on Admin Login As Customer v3.3 for Zen Cart v1.5.3, updated by jeking</li>
+  </ul>
+<br />
 <font size="4"><strong><u>License</u></strong></font>
 <p>This contribution is distributed under the terms of the Gnu General Public License (GPL) Version 2. A copy of this license can be found in LICENSE.txt as part of this contribution.</p>
 <br />
-	<font size="4"><strong><u>Purpose &amp; Aim</u></strong></font>
-<p>Admin Login As Customer v3.2 is designed to allow you log in to your store as a customer through the admin in order to process phone or mail orders.</p>
-<br /><br />
-	<font size="4"><strong><u>Zip File Contents</u></strong></font>
-<p>The zip file contains two versions of this addon, both for Zen Cart 1.5.1. Make sure to select the version that is correct for your Zen Cart installation.</p> 
+<font size="4"><strong><u>Purpose &amp; Aim</u></strong></font>
+<p>Admin Login As Customer v3.4 is designed to allow you log in to your store as a customer through the admin in order to process phone or mail orders.</p>
+<br />
+<br />
+<font size="4"><strong><u>Zip File Contents</u></strong></font>
+<p>The zip file contains two versions of this addon, both for Zen Cart 1.5.4. Make sure to select the version that is correct for your Zen Cart installation.</p>
 <ul>
-<li>Without Master Password (For those who already have the Master Password module installed).</li>
-<li>With Master Password (For those who do not already have the Master Password module installed).</li>
-		<ul>
-		<li><strong>In order for the Admin Login as Customer module to function, you must also have the Master Password module installed.</strong></li>
-		<li>If you don't yet have the Master Password module installed, you <strong>must</strong> install this second version. <i>See installation instructions below</i></li>.
-		</ul>
-</ul>
+    <li>Without Master Password (For those who already have the Master Password module installed).</li>
+    <li>With Master Password (For those who do not already have the Master Password module installed).</li>
+    <ul>
+    <li><strong>In order for the Admin Login as Customer module to function, you must also have the Master Password module installed.</strong></li>
+    <li>If you don't yet have the Master Password module installed, you <strong>must</strong> install this second version. <i>See installation instructions below</i></li>
+    .
+  </ul>
+  </ul>
 <br />
 <font size="4"><strong><u>Files List</u></strong></font><br />
- <p>Some of the files in the Admin Login As Customer v3.2 addon are new files and some are Zen Cart Core files. Additionally, installing the version "with Master Password" makes changes to your database.</p>
- <p><strong>New Files Added</strong></p>
- <ul>
- <li>YOUR_ADMIN/includes/languages/english/images/buttons/button_placeorder.gif</li>
- <li>includes/modules/pages/login_as_customer/header_php.php</li>
- <li>includes/templates/YOUR_CUSTOM_TEMPLATE/templates/tpl_login_as_customer_default.php</li> 
- </ul>
- <p><strong>Core Files Modified</strong></p>
- <ul>
- <li>YOUR_ADMIN/customers.php</li> 
- <li>includes/functions/password_funcs.php (only in 02_admin_login_as_customer_with_master_password)</li>
- </ul>
- <p><strong>SQL Files Included</strong></p>
- <ul>
- <li>SQL/install_master_password.sql - (only in 02_admin_login_as_customer_with_master_password)</li>  
- </ul>
- <br /><br />	
-	<font size="4"><strong><u>Installation Instructions for the version <u>without</u> Master Password Module</u></strong></font><br />
-    <font size="2"><strong>Only install this version if you already have the Master Password module installed.</strong> Otherwise, install the 2nd version. <i>See instructions below</i></font>
+<p>Some of the files in the Admin Login As Customer v3.4 addon are new files and some are Zen Cart Core files. Additionally, installing the version "with Master Password" makes changes to your database.</p>
+<p><strong>New Files Added</strong></p>
+<ul>
+    <li>YOUR_ADMIN/includes/languages/english/images/buttons/button_placeorder.gif</li>
+    <li>includes/modules/pages/login_as_customer/header_php.php</li>
+    <li>includes/templates/YOUR_CUSTOM_TEMPLATE/templates/tpl_login_as_customer_default.php</li>
+  </ul>
+<p><strong>Core Files Modified</strong></p>
+<ul>
+    <li>YOUR_ADMIN/customers.php</li>
+    <li>includes/functions/password_funcs.php (only in 02_admin_login_as_customer_with_master_password)</li>
+  </ul>
+<p><strong>SQL Files Included</strong></p>
+<ul>
+    <li>SQL/install_master_password.sql - (only in 02_admin_login_as_customer_with_master_password)</li>
+  </ul>
+<br />
+<br />
+<font size="4"><strong><u>Installation Instructions for the version <u>without</u> Master Password Module</u></strong></font><br />
+<font size="2"><strong>Only install this version if you already have the Master Password module installed.</strong> Otherwise, install the 2nd version. <i>See instructions below</i></font>
 <ol>
-<li><strong>BACK UP YOUR STORE FILES AND DATABASE BEFORE GETTING STARTED!!</strong></li>
-<li>Extract the contents of the zip file to your PC, leaving the folder/file structure intact</li>
-<li>Open the <strong>01_admin_login_as_customer</strong> folder
-<li>Rename the <strong>YOUR_ADMIN folder</strong> to match the name of your admin folder</li>
-<li>Rename the <strong>includes/templates/YOUR_CUSTOM_TEMPLATE</strong> folder to match the name of your template folder.</li>
-<li>Copy the entire <strong>contents</strong> of the <strong>admin folder</strong> to your store's admin folder.</li>
-<li>Copy the entire <strong>contents</strong> of the <strong>includes folder</strong> to your store's includes folder.</li>
-</ol>
-<br /><br />
-	<font size="4"><strong><u>Installation Instructions for the version <u>with</u> Master Password Module</u></strong><br /></font>
-	<font size="2"><strong>Only install this version if you haven't yet installed the Master Password module.</strong> Otherwise install the 1st version. <i>See instructions above</i>.</font>
+    <li><strong>BACK UP YOUR STORE FILES AND DATABASE BEFORE GETTING STARTED!!</strong></li>
+    <li>Extract the contents of the zip file to your PC, leaving the folder/file structure intact</li>
+    <li>Open the <strong>01_admin_login_as_customer</strong> folder
+  <li>Rename the <strong>YOUR_ADMIN folder</strong> to match the name of your admin folder</li>
+    <li>Rename the <strong>includes/templates/YOUR_CUSTOM_TEMPLATE</strong> folder to match the name of your template folder.</li>
+    <li>Copy the entire <strong>contents</strong> of the <strong>admin folder</strong> to your store's admin folder.</li>
+    <li>Copy the entire <strong>contents</strong> of the <strong>includes folder</strong> to your store's includes folder.</li>
+  </ol>
+<br />
+<br />
+<font size="4"><strong><u>Installation Instructions for the version <u>with</u> Master Password Module</u></strong><br />
+  </font> <font size="2"><strong>Only install this version if you haven't yet installed the Master Password module.</strong> Otherwise install the 1st version. <i>See instructions above</i>.</font>
 <ol>
-<li><strong>BACK UP YOUR STORE FILES AND DATABASE BEFORE GETTING STARTED!!</strong></li>
-<li>Extract the contents of the zip file to your PC, leaving the folder/file structure intact</li>
-<li>Open the <strong>02_admin_login_as_customer_with_master_password</strong> folder
-<li>Rename the <strong>YOUR_ADMIN folder</strong> to match the name of your admin folder</li>
-<li>Rename the <strong>includes/templates/YOUR_CUSTOM_TEMPLATE</strong> folder to match the name of your template folder.</li>
-<li>Copy the entire <strong>contents</strong> of the <strong>admin folder</strong> to your store's admin folder.</li>
-<li>Copy the entire <strong>contents</strong> of the <strong>includes folder</strong> to your store's includes folder.</li>
-<li>Install the Master Password module into your database:</li>
-		<ul>
-		<li>Using Notepad or some other text editor, <strong>open 02_admin_login_as_customer_with_master_password/SQL/install_master_password.sql</strong></li>
-		<li>Copy the data in the file</li>
-		<li>Log in to your store's admin</li>
-		<li>Navigate to <strong>Admin &gt; Tools &gt; Install SQL Patches</strong></li>
-		<li>Paste the contents of the SQL file into the box &amp; click "Send"</li>		
-		</ul>
-<li>Navigate to Admin &gt; Configuration &gt; My Store &gt; Master Password & click "Edit" to enter your chosen Master Password.</li>
-<li>This completes your installation of the Admin Login As Customer module. To use this feature:
-		<ul>
-		<li>Navigate to Admin &gt; Customers and click on any customer. You will see that a "Place Order" button has been added.</li>
-		<li>Click the button and your storefront will open in a new window asking you if you're sure you want to log in as that customer.</li>
-		<li>Click the "Place Order" button on that page and you will be logged in to that customer's account, as the customer</li>
-		</ul>
+    <li><strong>BACK UP YOUR STORE FILES AND DATABASE BEFORE GETTING STARTED!!</strong></li>
+    <li>Extract the contents of the zip file to your PC, leaving the folder/file structure intact</li>
+    <li>Open the <strong>02_admin_login_as_customer_with_master_password</strong> folder
+  <li>Rename the <strong>YOUR_ADMIN folder</strong> to match the name of your admin folder</li>
+    <li>Rename the <strong>includes/templates/YOUR_CUSTOM_TEMPLATE</strong> folder to match the name of your template folder.</li>
+    <li>Copy the entire <strong>contents</strong> of the <strong>admin folder</strong> to your store's admin folder.</li>
+    <li>Copy the entire <strong>contents</strong> of the <strong>includes folder</strong> to your store's includes folder.</li>
+    <li>Install the Master Password module into your database:</li>
+    <ul>
+    <li>Using Notepad or some other text editor, <strong>open 02_admin_login_as_customer_with_master_password/SQL/install_master_password.sql</strong></li>
+    <li>Copy the data in the file</li>
+    <li>Log in to your store's admin</li>
+    <li>Navigate to <strong>Admin &gt; Tools &gt; Install SQL Patches</strong></li>
+    <li>Paste the contents of the SQL file into the box &amp; click "Send"</li>
+  </ul>
+    <li>Navigate to Admin &gt; Configuration &gt; My Store &gt; Master Password & click "Edit" to enter your chosen Master Password.</li>
+    <li>This completes your installation of the Admin Login As Customer module. To use this feature:
+    <ul>
+        <li>Navigate to Admin &gt; Customers and click on any customer. You will see that a "Place Order" button has been added.</li>
+        <li>Click the button and your storefront will open in a new window asking you if you're sure you want to log in as that customer.</li>
+        <li>Click the "Place Order" button on that page and you will be logged in to that customer's account, as the customer</li>
+      </ul>
 </ol>
-<br /><br /> 
-	<font size="4"><strong><u>Uninstall Instructions</u></strong><br /></font>	
+<br />
+<br />
+<font size="4"><strong><u>Uninstall Instructions</u></strong><br />
+  </font>
 <ol>
-<li><strong>BACK UP YOUR STORE FILES AND DATABASE BEFORE UNINSTALLING!!</strong></li>
-<li>Delete the following files from your server:</li>
-		<ul>
-		<li>YOUR_ADMIN/customers.php</li>
-			<ul>
-			<li><strong>*****THIS IS A CORE ZEN CART FILE*****</strong></li>
-			<li><strong>BEFORE YOU DELETE THIS FILE -</strong> Check to see if any changes have been made to it by you or another addon <strong>since</strong> installing Admin Login As Customer v3.2.</strong></li>
-					<ul>
-					<li><strong>If yes,</strong> you need to make note of those changes before you delete the file.</li>
-					<li><strong>If no,</strong> just go ahead and delete the file</li>
-					</ul>
-			<li><strong>AFTER YOU DELETE THIS FILE - It <u>must be replaced</u> with the admin/customers.php from the Zen Cart v1.5.0 fileset</strong></li>
-					<ul>
-					<li>If your or another mod made any changes to this file since installing Admin Login As Customer v3.2, you will need to incorporate those changes into the admin/customers.php file from the Zen Cart v1.5.0 fileset and then upload the file to your server.</li>
-					</ul>			
-			</ul>
-		<li>YOUR_ADMIN/includes/languages/english/images/buttons/button_placeorder.gif</li>
-		<li>includes/modules/pages/login_as_customer/header_php.php</li>
-		<li>includes/templates/YOUR_CUSTOM_TEMPLATE/templates/tpl_login_as_customer_default.php</li>
-		</ul>
-<li><strong>Optional:</strong> Uninstall the Master Password module from your store - <strong>Skip this step if you wish to keep the Master Password module installed</strong></li>
-		<ul>
-		<li>Delete this file from your server: <strong>includes/functions/password_funcs.php</strong></li>
-			<ul>
-			<li><strong>*****THIS IS A CORE ZEN CART FILE*****</strong></li>
-			<li><strong>BEFORE YOU DELETE THIS FILE -</strong> Check to see if any changes have been made to it by you or another addon <strong>since</strong> installing Admin Login As Customer v3.0.</strong></li>
-					<ul>
-					<li><strong>If yes,</strong> you need to make note of those changes before you delete the file.</li>
-					<li><strong>If no,</strong> just go ahead and delete the file</li>
-					</ul>
-			<li><strong>AFTER YOU DELETE THIS FILE - It <u>must be replaced</u> with the includes/functions/password_funcs.php from the Zen Cart v1.5.1 fileset</strong></li>
-					<ul>
-					<li>If your or another mod made any changes to this file since installing Admin Login As Customer v3.0, you will need to incorporate those changes into the includes/functions/password_funcs.php file from the Zen Cart v1.5.1 fileset and then upload the file to your server.</li>
-					</ul>			
-			</ul>		
-		</ul>
-</ol>
-<br /><br />  	
- <font size="4"><strong><u>v3.3 Changelog</u></strong></font> 
- <ul> 
- <li>Updated for compatibility with Zen Cart v1.5.3.</li>
- </ul>
-<br /><br />
- <font size="4"><strong><u>v3.2 Changelog</u></strong></font> 
- <ul> 
- <li>Automatically log active user out when the login_as_customer page is loaded</li>
- </ul>
-<br /><br />  	
- <font size="4"><strong><u>v3.1 Changelog</u></strong></font> 
- <ul> 
- <li>Replaced the password_funcs.php file in <strong>02_admin_login_as_customer_with_master_password/includes/functions</strong> folder</li>
- <li>Renamed folders to represent new version number 3.1</li>
- </ul>
-<br /><br /> 	
- <font size="4"><strong><u>v3.0 Changelog</u></strong></font> 
- <ul> 
- <li>Replaced the customers.php file in <strong>01_admin_login_as_customer_v3.0/YOUR_ADMIN</strong> folder</li>
- <li>Replaced the customers.php file in <strong>02_admin_login_as_customer_v3.0_with_master_password/YOUR_ADMIN</strong> folder</li> 
- <li>Cleaned up &amp; organized the folders in the zip file</li>
- <li>Updated the README file</li>
-		<ul>
-		<li>Removed links from the original file that currently link to sites which browers identify as being unsafe/untrustworthy.</li>
-		<li>Clarified installation instructions</li>
-		<li>Added information to the README that was previously missing</li>
-				<ul>
-				<li>Zip File Contents</li>
-				<li>Uninstall Instructions</li>
-				<li>Acknowledgments &amp; Credits</li>
-				<li>Changelog</li>
-				<li>Files List</li>
-				</ul>
-		</ul>
- </ul>
- <br /><br /> 
+    <li><strong>BACK UP YOUR STORE FILES AND DATABASE BEFORE UNINSTALLING!!</strong></li>
+    <li>Delete the following files from your server:</li>
+    <ul>
+    <li>YOUR_ADMIN/customers.php</li>
+    <ul>
+        <li><strong>*****THIS IS A CORE ZEN CART FILE*****</strong></li>
+        <li><strong>BEFORE YOU DELETE THIS FILE -</strong> Check to see if any changes have been made to it by you or another addon <strong>since</strong> installing Admin Login As Customer v3.4.</strong></li>
+        <ul>
+        <li><strong>If yes,</strong> you need to make note of those changes before you delete the file.</li>
+        <li><strong>If no,</strong> just go ahead and delete the file</li>
+      </ul>
+        <li><strong>AFTER YOU DELETE THIS FILE - It <u>must be replaced</u> with the admin/customers.php from the Zen Cart v1.5.4 fileset</strong></li>
+        <ul>
+        <li>If your or another mod made any changes to this file since installing Admin Login As Customer v3.4, you will need to incorporate those changes into the admin/customers.php file from the Zen Cart v1.5.4 fileset and then upload the file to your server.</li>
+      </ul>
+      </ul>
+    <li>YOUR_ADMIN/includes/languages/english/images/buttons/button_placeorder.gif</li>
+    <li>includes/modules/pages/login_as_customer/header_php.php</li>
+    <li>includes/templates/YOUR_CUSTOM_TEMPLATE/templates/tpl_login_as_customer_default.php</li>
+  </ul>
+    <li><strong>Optional:</strong> Uninstall the Master Password module from your store - <strong>Skip this step if you wish to keep the Master Password module installed</strong></li>
+    <ul>
+    <li>Delete this file from your server: <strong>includes/functions/password_funcs.php</strong></li>
+    <ul>
+        <li><strong>*****THIS IS A CORE ZEN CART FILE*****</strong></li>
+        <li><strong>BEFORE YOU DELETE THIS FILE -</strong> Check to see if any changes have been made to it by you or another addon <strong>since</strong> installing Admin Login As Customer v3.4.</strong></li>
+        <ul>
+        <li><strong>If yes,</strong> you need to make note of those changes before you delete the file.</li>
+        <li><strong>If no,</strong> just go ahead and delete the file</li>
+      </ul>
+        <li><strong>AFTER YOU DELETE THIS FILE - It <u>must be replaced</u> with the includes/functions/password_funcs.php from the Zen Cart v1.5.4 fileset</strong></li>
+        <ul>
+        <li>If your or another mod made any changes to this file since installing Admin Login As Customer v3.0, you will need to incorporate those changes into the includes/functions/password_funcs.php file from the Zen Cart v1.5.1 fileset and then upload the file to your server.</li>
+      </ul>
+      </ul>
+  </ul>
+  </ol>
+<br />
+<br />
+<font size="4"><strong><u>v3.4 Changelog</u></strong></font>
+  <ul>
+    <li>Updated for compatibility with Zen Cart v1.5.4.</li>
+  </ul>
+<br />
+<br />
+<font size="4"><strong><u>v3.3 Changelog</u></strong></font>
+  <ul>
+    <li>Updated for compatibility with Zen Cart v1.5.3.</li>
+  </ul>
+<br />
+<br />
+<font size="4"><strong><u>v3.2 Changelog</u></strong></font>
+  <ul>
+    <li>Automatically log active user out when the login_as_customer page is loaded</li>
+  </ul>
+<br />
+<br />
+<font size="4"><strong><u>v3.1 Changelog</u></strong></font>
+  <ul>
+    <li>Replaced the password_funcs.php file in <strong>02_admin_login_as_customer_with_master_password/includes/functions</strong> folder</li>
+    <li>Renamed folders to represent new version number 3.1</li>
+  </ul>
+<br />
+<br />
+<font size="4"><strong><u>v3.0 Changelog</u></strong></font>
+<ul>
+    <li>Replaced the customers.php file in <strong>01_admin_login_as_customer_v3.0/YOUR_ADMIN</strong> folder</li>
+    <li>Replaced the customers.php file in <strong>02_admin_login_as_customer_v3.0_with_master_password/YOUR_ADMIN</strong> folder</li>
+    <li>Cleaned up &amp; organized the folders in the zip file</li>
+    <li>Updated the README file</li>
+    <ul>
+    <li>Removed links from the original file that currently link to sites which browers identify as being unsafe/untrustworthy.</li>
+    <li>Clarified installation instructions</li>
+    <li>Added information to the README that was previously missing</li>
+    <ul>
+        <li>Zip File Contents</li>
+        <li>Uninstall Instructions</li>
+        <li>Acknowledgments &amp; Credits</li>
+        <li>Changelog</li>
+        <li>Files List</li>
+      </ul>
+  </ul>
+  </ul>
+<br />
+<br />
 </body>
 </html>
-
